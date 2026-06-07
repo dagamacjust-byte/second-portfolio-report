@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Justin Dagamac — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="logo">
+      <img src="Dagamac Logo.png" alt="Logo">
+    </div>
+    <nav>
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- MOBILE NAV -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#home" class="mobile-link">Home</a>
+    <a href="#education" class="mobile-link">Education</a>
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#skills" class="mobile-link">Skills</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+
+  <!-- HOME SECTION -->
+  <section id="home" class="section hero">
+    <div class="hero-content">
+      <p class="hero-tag">👋 Welcome to my portfolio</p>
+      <h1>Justin<br><span class="accent">Dagamac</span></h1>
+      <h3 class="typed-wrapper">
+        <span id="typed"></span><span class="cursor">|</span>
+      </h3>
+      <p class="hero-desc">
+        Hi! I'm a student passionate about learning web development
+        and improving my skills every single day.
+      </p>
+      <div class="hero-actions">
+        <button id="contactBtn" class="btn-primary">Contact Me</button>
+        <a href="#about" class="btn-ghost">Learn More ↓</a>
+      </div>
+    </div>
+    <div class="hero-glow"></div>
+  </section>
+
+  <!-- EDUCATION SECTION -->
+  <section id="education" class="section">
+    <div class="section-header">
+      <span class="section-tag">My Journey</span>
+      <h2>Educational Attainment</h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="timeline-year">2025 – 2026</span>
+          <h3>Agusan del Sur State University</h3>
+          <p>Bachelor of Science in Information Technology</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="timeline-year">2023 – 2025</span>
+          <h3>Veruela National High School</h3>
+          <p>General Academic Strand (GAS)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section">
+    <div class="section-header">
+      <span class="section-tag">Who I Am</span>
+      <h2>About Me</h2>
+    </div>
+
+    <div class="about-container">
+      <div class="photo-box">
+        <img src="me.jpg" alt="Justin Dagamac">
+        <div class="photo-ring"></div>
+      </div>
+      <div class="bio">
+        <p>
+          I'm hardworking, responsible, and always willing to learn
+          new things. I enjoy creating websites and sharpening my
+          programming skills with every project I take on.
+        </p>
+        <p>
+          Currently studying Information Technology, I strive to
+          bridge creativity and logic to build meaningful digital
+          experiences.
+        </p>
+        <div class="about-stats">
+          <div class="stat"><span>1+</span><p>Years Coding</p></div>
+          <div class="stat"><span>IT</span><p>Student</p></div>
+          <div class="stat"><span>∞</span><p>Curiosity</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section">
+    <div class="section-header">
+      <span class="section-tag">What I Do</span>
+      <h2>Skills</h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">🍳</div>
+        <h4>Cooking</h4>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🎵</div>
+        <h4>Singing</h4>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">💃</div>
+        <h4>Dancing</h4>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🎨</div>
+        <h4>Designing</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section">
+    <div class="section-header">
+      <span class="section-tag">Get in Touch</span>
+      <h2>Contact</h2>
+    </div>
+
+    <div class="contact-container">
+      <div class="contact-card">
+        <p class="contact-label">Email</p>
+        <a href="mailto:justindagamac05@gmail.com" class="contact-email">
+          justindagamac05@gmail.com
+        </a>
+      </div>
+
+      <div class="social-links">
+        <a href="#" class="social-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          Facebook
+        </a>
+        <a href="#" class="social-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          Instagram
+        </a>
+        <a href="#" class="social-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© <span id="year"></span> Justin Dagamac. All rights reserved.</p>
+    <div class="footer-logo">
+      <img src="Dagamac Logo.png" alt="Logo">
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
